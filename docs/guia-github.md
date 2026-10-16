@@ -71,6 +71,11 @@ Quem é da organização já enxerga o repo. Pessoa nova: o dono da organizaçã
 **Todos, no PC:**
 
 1. Instalam o Git: [git-scm.com](https://git-scm.com). No Windows, o terminal é o **Git Bash**.
+
+   > **Nunca usou terminal?** No Windows, abra o menu Iniciar e procure **Git Bash**: é uma janela
+   > onde você digita comandos. Cole um comando por vez (botão direito > *Paste*) e aperte Enter.
+   > `cd nome-da-pasta` entra numa pasta; os comandos rodam na pasta em que você está.
+
 2. Dizem ao Git quem são:
    ```bash
    git config --global user.name "Seu Nome"
