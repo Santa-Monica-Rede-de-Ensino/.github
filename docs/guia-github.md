@@ -92,12 +92,14 @@ No primeiro `git push`, o navegador pede login: entre com a conta do GitHub.
 
 ### 1. Anote a tarefa (issue)
 
-No site: **Issues** > **New issue**. Escreva o título e o texto (modelo abaixo).
+No site: **Issues** > **New issue**. Se o repo tiver modelos (*Tarefa* e *Bug*), escolha um: o
+texto já vem pronto, com a etiqueta. Sem modelo, escreva o título e o texto abaixo.
 
 Na lateral direita:
 
 - **Assignees** (quem faz a tarefa): clique e escolha você.
-- **Labels** (etiqueta do tipo): `enhancement` se é coisa nova, `bug` se é erro.
+- **Labels** (etiqueta do tipo), se o modelo não trouxe: `enhancement` se é coisa nova, `bug` se é
+  erro.
 
 Clique **Create**. O GitHub dá o número: #12.
 
@@ -159,6 +161,8 @@ Envie todo dia, mesmo sem terminar: é backup, e o time vê o progresso.
 
 No site: faixa amarela **Compare & pull request**. Não apareceu? **Pull requests** >
 **New pull request** > sua branch em **compare**. Na lateral direita, **Reviewers** (quem revisa): escolha Dev B.
+
+Se o repo tiver modelo de PR, o texto abaixo já vem com as seções: só preencha. Sem modelo, escreva:
 
 ```markdown
 Título: feat(alunos): adiciona cadastro de alunos
